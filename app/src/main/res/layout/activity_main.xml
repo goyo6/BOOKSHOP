@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headtext"
+        android:layout_width="407dp"
+        android:layout_height="47dp"
+        android:text="مكتبة القادمون"
+        android:textSize="100px"
+        android:textColorTint="#FF0000"
+        android:gravity="center"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp"
+
+    />
+
+    <TextView
+        android:id="@+id/wisdom"
+        android:layout_width="351dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="68dp"
+        android:text=" -يضيع العلم بين اثنين.. الحياء والكبر
+
+         -الناس إلى العلم أحوج منهم إلى الطعام والشراب، لأن الرجل يحتاج إلى الطعام والشراب في اليوم مرة أو مرتين، وحاجته إلى العلم بعدد أنفاسه"
+        android:textColorTint="#FF0000"
+        android:textSize="100px"
+        app:layout_constraintTop_toBottomOf="@+id/headtext"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <CheckBox
+        android:id="@+id/insert"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:text="إدخال"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <CheckBox
+        android:id="@+id/delete"
+        android:layout_width="92dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:text="حذف"
+        app:layout_constraintTop_toBottomOf="@+id/insert"
+        tools:layout_editor_absoluteX="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

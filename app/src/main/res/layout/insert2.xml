@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insert2">
+
+    <TextView
+        android:id="@+id/database_new_book"
+        android:layout_width="334dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="72dp"
+        android:text="معلومات الكتاب بعد اضافته
+
+
+
+
+
+
+
+         والموافقة عليه
+"
+        android:textSize="100px"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <TextView
+        android:id="@+id/information_in_database"
+        android:layout_width="281dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="96dp"
+        android:text="اربطها مع الداتا بيس عشان يبين المعلومات"
+        app:layout_constraintTop_toBottomOf="@+id/database_new_book"
+        tools:layout_editor_absoluteX="65dp" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="152dp"
+        android:text="الصفحة الرئيسية"
+        app:layout_constraintTop_toBottomOf="@+id/information_in_database"
+        tools:layout_editor_absoluteX="69dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
